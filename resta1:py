@@ -1,0 +1,11 @@
+j1 = int (input("primer numero : ")) 
+j2 = int (input("segundo nombre : "))
+resultado = j1 - j2 
+print ("resultado de la resta es: " , resultado) 
+if j1 < 0:
+    while j1 < 0: 
+        print (" error de monto negativo igrese nuevamente. ") 
+        break
+elif j2 < 0:
+    while j2 < 0: 
+        print ("error de monto negativo igrese nuevamente. ")  
